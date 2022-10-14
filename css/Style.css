@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li h4{
+    margin-left: 5px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+ul li img{
+width: 280px;
+height: 250px;
+}
+
+.btn{
+    margin-left: 50px;
+}
+
+
+body{
+    position: relative;
+    height: 3000px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+i{
+    color: blue;
+    font-size: 22px;
+}
+img{
+    margin: 10px;
+}
+#chart {
+    margin: 15px;
+    margin-left: 85%;
+    width: 180px;
+    height: 450px;
+    background-color: rgba(252, 225, 192,.5);
+    position: absolute;
+    position: fixed;
+word-spacing: 0px;
+
+    z-index: 1;
+font-size: 15px;
+/* display: none; */
+}
+ #chart h4{
+    color: orangered;
+    margin-left: 10px;
+}
+ #chart i{
+    color: rgb(255, 103, 47) ;
+    margin-left: 5px;
+} 
+.sp1{
+width: 50px;
+height: 5px;
+display: block;
+background-color: black;
+
+} 
+
+.btn{
+    width: 160px;
+    height: 40px;
+    margin:31%  85% ;
+    position: absolute;
+    position: fixed;
+    z-index: 2;
+}
